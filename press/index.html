@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Press kit · Mauricio Cruz</title>
+<meta name="description" content="Bios, headshots, logos y datos de contacto para periodistas, podcast hosts y organizadores de eventos.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a; --surface: #1a1a1a; --accent: #10b981; --text: #f5f5f5; --text-2: #9ca3af; --text-3: #6b7280;
+  --border: rgba(255,255,255,0.06); --border-2: rgba(255,255,255,0.12);
+  --font-display: 'Exo 2', sans-serif; --font-body: 'Inter', sans-serif; --font-mono: 'JetBrains Mono', monospace;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--font-body); line-height: 1.6; }
+a { color: var(--accent); }
+img { max-width: 100%; display: block; }
+.nav { position: sticky; top: 0; background: rgba(10,10,10,0.85); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+.nav-inner { max-width: 64rem; margin: 0 auto; padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+.nav-back { color: var(--text-2); font-size: 0.875rem; }
+.nav-back:hover { color: var(--text); }
+.wrap { max-width: 64rem; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+
+.eyebrow { color: var(--accent); font-family: var(--font-mono); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 0.75rem; }
+h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.5rem, 5vw, 3.5rem); letter-spacing: -0.03em; margin: 0 0 1rem; line-height: 1.1; }
+.lede { color: var(--text-2); font-size: 1.125rem; max-width: 38rem; margin: 0 0 3rem; line-height: 1.55; }
+
+h2 { font-family: var(--font-display); font-weight: 700; font-size: 1.625rem; letter-spacing: -0.02em; margin: 4rem 0 1.5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+h2:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+h3 { font-family: var(--font-display); font-weight: 600; font-size: 1.125rem; margin: 1.5rem 0 0.5rem; }
+
+.section-meta { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-3); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 1.5rem; }
+
+/* QUICK FACTS */
+.quick-facts { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; padding: 1.5rem; background: var(--surface); border-radius: 8px; border: 1px solid var(--border); margin-bottom: 3rem; font-family: var(--font-mono); font-size: 0.875rem; }
+@media (max-width: 600px) { .quick-facts { grid-template-columns: 1fr; } }
+.quick-facts .row { display: flex; gap: 0.5rem; }
+.quick-facts .label { color: var(--text-3); min-width: 100px; }
+.quick-facts .value { color: var(--text); }
+.quick-facts .value strong { color: var(--accent); }
+
+/* BIOS */
+.bio-block { background: var(--surface); border-radius: 8px; border: 1px solid var(--border); padding: 1.75rem; margin-bottom: 1rem; }
+.bio-block .header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
+.bio-block .label { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); letter-spacing: 0.18em; text-transform: uppercase; }
+.bio-block .word-count { font-family: var(--font-mono); font-size: 0.6875rem; color: var(--text-3); }
+.bio-block .copy-btn { font-family: var(--font-mono); font-size: 0.6875rem; padding: 4px 10px; background: transparent; border: 1px solid var(--border-2); color: var(--text-2); border-radius: 4px; cursor: pointer; transition: all 200ms; letter-spacing: 0.1em; text-transform: uppercase; }
+.bio-block .copy-btn:hover { border-color: var(--accent); color: var(--accent); }
+.bio-block p { color: var(--text); font-size: 0.9375rem; line-height: 1.65; margin: 0 0 0.75rem; }
+.bio-block p:last-child { margin-bottom: 0; }
+.bio-block strong { color: var(--accent); font-weight: 500; }
+.bio-block.en p { color: var(--text-2); }
+
+/* HEADSHOTS */
+.headshots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+@media (max-width: 700px) { .headshots { grid-template-columns: 1fr; } }
+.headshot-card { background: var(--surface); border-radius: 8px; border: 1px solid var(--border); overflow: hidden; }
+.headshot-card .img-wrap { aspect-ratio: 4/5; overflow: hidden; }
+.headshot-card .img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+.headshot-card .meta { padding: 1rem; }
+.headshot-card h4 { font-size: 0.9375rem; margin: 0 0 0.25rem; font-weight: 600; }
+.headshot-card .desc { font-size: 0.8125rem; color: var(--text-2); margin: 0 0 0.625rem; line-height: 1.5; }
+.headshot-card .download { display: inline-flex; gap: 0.5rem; font-family: var(--font-mono); font-size: 0.6875rem; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* LOGOS */
+.logos-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+@media (max-width: 700px) { .logos-grid { grid-template-columns: repeat(2, 1fr); } }
+.logo-card { background: var(--surface); border-radius: 8px; border: 1px solid var(--border); padding: 1.5rem 1rem; text-align: center; }
+.logo-card .name { font-family: var(--font-display); font-weight: 700; font-size: 1rem; margin: 0 0 0.5rem; }
+.logo-card .download { font-family: var(--font-mono); font-size: 0.6875rem; color: var(--accent); letter-spacing: 0.1em; text-transform: uppercase; }
+
+/* APPEARANCES */
+.appear-row { display: grid; grid-template-columns: 90px 1fr auto; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--border); align-items: center; }
+.appear-row:last-child { border-bottom: 0; }
+.appear-row .date { font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-3); letter-spacing: 0.05em; }
+.appear-row .name { font-weight: 600; font-size: 0.9375rem; }
+.appear-row .desc { font-size: 0.8125rem; color: var(--text-2); }
+.appear-row .link { font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent); }
+
+footer { border-top: 1px solid var(--border); padding: 2rem 0; }
+footer .inner { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; color: var(--text-3); font-size: 0.8125rem; font-family: var(--font-mono); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+footer a { color: var(--text-3); }
+footer a:hover { color: var(--accent); }
+
+.tbd { font-family: var(--font-mono); font-size: 0.6875rem; color: rgba(245,158,11,0.8); background: rgba(245,158,11,0.1); padding: 1px 6px; border-radius: 3px; letter-spacing: 0.05em; }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-back">← Mauricio Cruz</a>
+    <span style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-3);letter-spacing:0.1em">PRESS KIT</span>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <div class="eyebrow">PRESS KIT · ÚLTIMA ACTUALIZACIÓN ABR 2026</div>
+  <h1>Press kit</h1>
+  <p class="lede">
+    Material para periodistas, podcast hosts y organizadores de eventos. Bios en tres longitudes,
+    headshots en alta resolución, y logos. Para inquiries directas:
+    <a href="mailto:prensa@meximalist.com">prensa@meximalist.com</a>.
+  </p>
+
+  <div class="quick-facts">
+    <div class="row"><span class="label">Nombre:</span><span class="value">Mauricio Cruz</span></div>
+    <div class="row"><span class="label">Handle:</span><span class="value">@meximalist</span></div>
+    <div class="row"><span class="label">Base:</span><span class="value">Monterrey, NL · México</span></div>
+    <div class="row"><span class="label">Idioma:</span><span class="value">Español · English</span></div>
+    <div class="row"><span class="label">Producto:</span><span class="value">EmpleadoDigital.mx</span></div>
+    <div class="row"><span class="label">Podcast:</span><span class="value">BandaWeb3 · <strong>396+ eps</strong></span></div>
+    <div class="row"><span class="label">Livestream:</span><span class="value">Vibecodeando Ando · L–V 12pm</span></div>
+    <div class="row"><span class="label">Comunidad:</span><span class="value">Ethereum México · mxweb3</span></div>
+  </div>
+
+  <h2>Bios</h2>
+  <p class="section-meta">Tres longitudes · Español + English · listas para copiar/pegar</p>
+
+  <!-- BIO 50 ES -->
+  <div class="bio-block">
+    <div class="header">
+      <span class="label">BIO CORTA · ES</span>
+      <span class="word-count">~50 palabras</span>
+    </div>
+    <p>
+      <strong>Mauricio Cruz</strong> es operator y builder mexicano con base en Monterrey.
+      Construye agentes de IA on-prem para PyMEs a través de
+      <strong>EmpleadoDigital.mx</strong>, opera <strong>BandaWeb3</strong> (396+ eps de
+      podcasts Web3 en español), y transmite Vibecodeando Ando de lunes a viernes.
+      Contador público de profesión.
+    </p>
+  </div>
+
+  <!-- BIO 50 EN -->
+  <div class="bio-block en">
+    <div class="header">
+      <span class="label">SHORT BIO · EN</span>
+      <span class="word-count">~50 words</span>
+    </div>
+    <p>
+      <strong>Mauricio Cruz</strong> is a Mexican operator-builder based in Monterrey.
+      He builds on-prem AI agents for SMBs through <strong>EmpleadoDigital.mx</strong>,
+      operates <strong>BandaWeb3</strong> (396+ episodes of Spanish-language Web3
+      podcasts), and livestreams Vibecodeando Ando weekdays. Trained CPA.
+    </p>
+  </div>
+
+  <!-- BIO 150 ES -->
+  <div class="bio-block">
+    <div class="header">
+      <span class="label">BIO MEDIA · ES</span>
+      <span class="word-count">~150 palabras</span>
+    </div>
+    <p>
+      <strong>Mauricio Cruz</strong> es operator y builder mexicano con base en Monterrey.
+      Es fundador de <strong>EmpleadoDigital.mx</strong>, una plataforma que despliega
+      agentes de IA en infraestructura local (Mac mini + dashboard + mantenimiento mensual)
+      para PyMEs como Chapas Burgers y Casablanca.
+    </p>
+    <p>
+      En paralelo opera <strong>BandaWeb3</strong>, el archivo más grande de podcasts Web3
+      en español con 396+ episodios documentando la conversación cripto en LATAM. Cada día
+      de lunes a viernes a las 12pm transmite <strong>Vibecodeando Ando</strong>, un
+      livestream donde construye productos con IA en tiempo real. Es contador público de
+      profesión, co-organizador de Ethereum México, y publica como <strong>@meximalist</strong>.
+    </p>
+  </div>
+
+  <!-- BIO 150 EN -->
+  <div class="bio-block en">
+    <div class="header">
+      <span class="label">MEDIUM BIO · EN</span>
+      <span class="word-count">~150 words</span>
+    </div>
+    <p>
+      <strong>Mauricio Cruz</strong> is a Mexican operator-builder based in Monterrey.
+      He's the founder of <strong>EmpleadoDigital.mx</strong>, a platform that deploys
+      on-premises AI agents (Mac mini + dashboard + monthly maintenance) for Mexican
+      SMBs like Chapas Burgers and Casablanca.
+    </p>
+    <p>
+      In parallel, he operates <strong>BandaWeb3</strong>, the largest Spanish-language
+      Web3 podcast archive with 396+ episodes documenting LATAM's crypto conversation.
+      Every weekday at noon (CDMX/MTY) he livestreams <strong>Vibecodeando Ando</strong>,
+      where he builds AI products in real time. He's a trained CPA, co-organizer of
+      Ethereum México, and publishes as <strong>@meximalist</strong>.
+    </p>
+  </div>
+
+  <!-- BIO 400 ES -->
+  <div class="bio-block">
+    <div class="header">
+      <span class="label">BIO LARGA · ES</span>
+      <span class="word-count">~400 palabras</span>
+    </div>
+    <p>
+      <strong>Mauricio Cruz</strong> es operator y builder mexicano enfocado en hacer que
+      la IA sea operacional para empresas en México. Vive en Monterrey y opera desde ahí.
+    </p>
+    <p>
+      Es fundador de <strong>EmpleadoDigital.mx</strong>, una plataforma que despliega
+      agentes de IA en infraestructura local — Mac mini + agente conversacional + dashboard
+      de operación + mantenimiento mensual incluido — para PyMEs mexicanas. Sus clientes
+      activos incluyen Chapas Burgers (F&amp;B) y Casablanca (servicios), ambos en Monterrey.
+      La tesis: las PyMEs necesitan IA on-prem, costo fijo, en español, con horario CDMX/MTY,
+      y entendiendo lo que es facturar al SAT — no SaaS gringos cobrando por mensaje en USD.
+    </p>
+    <p>
+      En paralelo construye en público. Opera <strong>BandaWeb3</strong>, el archivo más
+      grande de podcasts Web3 en español con 396+ episodios documentando la conversación
+      cripto en LATAM desde X Spaces. Cada día de lunes a viernes a las 12pm transmite
+      <strong>Vibecodeando Ando</strong>, un livestream donde construye productos con IA
+      en tiempo real — 28+ episodios entre enero y abril 2026.
+    </p>
+    <p>
+      Es <strong>contador público</strong> de profesión, con dos décadas operando proyectos
+      corporativos en LATAM antes de pivotar al lado del builder. Esto le da el chip operativo
+      para entender qué problemas valen la pena automatizar y cuáles no — no es un dev que
+      descubrió IA, es un operator que aprendió a construir.
+    </p>
+    <p>
+      Es co-organizador de <strong>Ethereum México</strong>, miembro activo de la comunidad
+      mxweb3, y publica como <strong>@meximalist</strong> en X, Instagram, TikTok, YouTube
+      y LinkedIn. Para inquiries de B2B, advisory selectivo o press: m@meximalist.com.
+    </p>
+  </div>
+
+  <!-- HEADSHOTS -->
+  <h2 id="headshots">Headshots</h2>
+  <p class="section-meta">Editorial B&amp;W · 300dpi · uso libre con crédito</p>
+
+  <div class="headshots">
+    <div class="headshot-card">
+      <div class="img-wrap"><img src="/assets/headshot-bw-shirt-dots.jpg" alt="Mauricio Cruz · headshot principal"></div>
+      <div class="meta">
+        <h4>Editorial principal</h4>
+        <p class="desc">B&amp;W · camisa con dots · mirada directa. Default para artículos.</p>
+        <a href="/assets/headshot-bw-shirt-dots.jpg" download class="download">↓ Descargar JPG</a>
+      </div>
+    </div>
+    <div class="headshot-card">
+      <div class="img-wrap"><img src="/assets/headshot-bw-arms-crossed.jpg" alt="Mauricio Cruz · founder pose"></div>
+      <div class="meta">
+        <h4>Founder pose</h4>
+        <p class="desc">B&amp;W · brazos cruzados. Para perfiles de fundador.</p>
+        <a href="/assets/headshot-bw-arms-crossed.jpg" download class="download">↓ Descargar JPG</a>
+      </div>
+    </div>
+    <div class="headshot-card">
+      <div class="img-wrap"><img src="/assets/bridge-ape-cap-front.jpg" alt="Mauricio Cruz · bridge image"></div>
+      <div class="meta">
+        <h4>Bridge · gorra ape</h4>
+        <p class="desc">B&amp;W · merch personal. Para coverage de la marca @meximalist.</p>
+        <a href="/assets/bridge-ape-cap-front.jpg" download class="download">↓ Descargar JPG</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- LOGOS -->
+  <h2 id="logos">Logos &amp; marcas</h2>
+  <p class="section-meta">SVG + PNG · uso editorial</p>
+
+  <div class="logos-grid">
+    <div class="logo-card">
+      <div class="name">meximalist.com</div>
+      <a href="#" class="download">↓ SVG / PNG</a>
+    </div>
+    <div class="logo-card">
+      <div class="name">mexi.wtf</div>
+      <a href="#" class="download">↓ SVG / PNG</a>
+    </div>
+    <div class="logo-card">
+      <div class="name">BandaWeb3</div>
+      <a href="https://bw3.mexi.wtf" target="_blank" class="download">↓ Recursos</a>
+    </div>
+    <div class="logo-card">
+      <div class="name">EmpleadoDigital</div>
+      <a href="https://empleadodigital.mx" target="_blank" class="download">↓ Recursos</a>
+    </div>
+  </div>
+
+  <!-- APPEARANCES -->
+  <h2>Apariciones &amp; menciones</h2>
+  <p class="section-meta">Podcasts, artículos, comunidades</p>
+
+  <div class="appear-row">
+    <div class="date">NOV 2021</div>
+    <div>
+      <div class="name">Café y Bocetos · Apple Podcasts</div>
+      <div class="desc">Entrevista con Esau Figueroa sobre NFTs y la creación de Meximalist.</div>
+    </div>
+    <a href="https://podcasts.apple.com/" target="_blank" rel="noopener" class="link">↗ ESCUCHAR</a>
+  </div>
+  <div class="appear-row">
+    <div class="date">2022</div>
+    <div>
+      <div class="name">Medium · Jair Sánchez Martínez</div>
+      <div class="desc">Cobertura sobre el rol de Mauricio como Spaces director de mxweb3.</div>
+    </div>
+    <a href="#" target="_blank" rel="noopener" class="link">↗ LEER</a>
+  </div>
+  <div class="appear-row">
+    <div class="date">2024–</div>
+    <div>
+      <div class="name">Ethereum México · Co-organizador</div>
+      <div class="desc">Comunidad oficial de Ethereum en México.</div>
+    </div>
+    <a href="https://ethmexico.org" target="_blank" rel="noopener" class="link">↗ ETHMEXICO.ORG</a>
+  </div>
+
+  <p style="margin-top:2rem;font-size:0.875rem;color:var(--text-3)">
+    <span class="tbd">TBD</span> Próximas apariciones, talks y cobertura — pendiente actualización.
+    Si organizas un podcast / evento / publicación y quieres incluir a Mauricio,
+    escribe a <a href="mailto:prensa@meximalist.com">prensa@meximalist.com</a>.
+  </p>
+
+  <h2>Contacto directo de prensa</h2>
+  <p>
+    <a href="mailto:prensa@meximalist.com">prensa@meximalist.com</a> · respuesta en menos de 24 horas.
+    Para inquiries de negocio: <a href="mailto:m@meximalist.com">m@meximalist.com</a>.
+  </p>
+
+</main>
+
+<footer>
+  <div class="inner">
+    <div><a href="/">← MAURICIO CRUZ</a> &nbsp;·&nbsp; © 2026 · HECHO EN MÉXICO</div>
+    <div>LADO BUILDER → <a href="https://mexi.wtf">mexi.wtf</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
