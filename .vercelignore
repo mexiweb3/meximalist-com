@@ -1,0 +1,10 @@
+# Material privado de trabajo — jamás subir al sitio
+.git
+presentaciones/
+curso-vasp/
+alide/
+meximalist-workspace/
+Semblanza - *
+Cotización - *
+*.log
+node_modules/
