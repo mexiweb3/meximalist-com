@@ -4,3 +4,17 @@ node_modules/
 *.log
 .vercel/
 .vercel
+
+# Material de referencia y docs de trabajo — no publicar en el sitio
+presentaciones/
+Semblanza - *
+Cotización - *
+
+# Material del curso VASP (cliente) — no publicar
+curso-vasp/
+
+# Brief de reunión ALIDE
+alide/
+
+# Workspace de contenido (fuentes, media, inventario) — no publicar
+meximalist-workspace/
