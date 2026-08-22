@@ -1,0 +1,29 @@
+# Mauricio Cruz (Mexi / @meximalist)
+
+> Operator, builder y speaker con base en Monterrey, México. De la seguridad corporativa a la IA: 25 años llevando tecnología emergente al mundo real. Fundador de MXWEB3, host de BandaWeb3 (970+ X Spaces) y builder de empleados digitales con EmpleadoDigital.mx.
+
+Datos clave verificados:
+
+- Ingeniero en Electrónica y Comunicaciones (Tec de Monterrey), maestría en Criminología (UANL), CPP — Certified Protection Professional (ASIS International, 2008).
+- 20 años en seguridad corporativa: Vitro (11 años) y Honeywell (Director de PM para LATAM) — proyectos multimillonarios en banca, datacenters, manufactura, cemento y salud.
+- Host de BandaWeb3: 970+ X Spaces desde diciembre 2021, 351,585+ oyentes acumulados. Canal de video: youtube.com/@BandaWeb3.
+- Speaker en 4 países: moderador en el Science Summit de la ONU (NYC 2025), speaker en Devconnect Argentina 2025, VIP Speaker en NFT NYC 2024, Cripto Latin Fest Bogotá 2023. Ganador de 2 tracks en ETHGlobal Buenos Aires 2025 (proyecto Koilen).
+- Docencia: profesor de posgrado en FintechU (Maestría en Fintech & Blockchain, 2024); capacitación corporativa en activos virtuales y VASPs a instituciones financieras.
+- Co-organizador de Ethereum México (líder de sponsorships de la edición Monterrey 2025). Fundador de la comunidad MXWEB3 (2021).
+- Marca MEXIMALIST registrada ante el IMPI (reg. 2494020, clase 42, vigente 2023–2033).
+
+## Páginas
+
+- [Inicio](https://meximalist.com/): bio en 3 actos, trayectoria 2001–2026, proyectos, shows, apariciones destacadas y speaking con evidencia.
+- [Press kit](https://meximalist.com/press): bios en 3 longitudes (ES/EN), headshots descargables, logos, apariciones en medios.
+
+## Servicios y contacto
+
+- Empleados digitales (agentes de IA on-prem) · cursos y capacitación corporativa (blockchain, activos virtuales, IA) · keynotes y paneles.
+- Negocio: m@meximalist.com · Prensa: prensa@meximalist.com · Agenda: https://call.mexi.wtf · Perfil de speaker: https://sessionize.com/mexi/
+- Redes: https://x.com/meximalist · https://linkedin.com/in/mauriciocruzcpp · https://github.com/mexiweb3 · https://instagram.com/mexi.wtf · https://youtube.com/@BandaWeb3
+
+## Optional
+
+- [Contenido completo en markdown](https://meximalist.com/llms-full.txt): todo el contenido del sitio en texto plano para agentes.
+- [Lado builder](https://mexi.wtf): hub personal de proyectos y experimentos.

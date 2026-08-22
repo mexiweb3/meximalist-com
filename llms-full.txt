@@ -1,0 +1,99 @@
+# Mauricio Cruz (Mexi / @meximalist) — contenido completo de meximalist.com
+
+> Última actualización: agosto 2026. Este archivo contiene el contenido del sitio en markdown para consumo de agentes y LLMs. Fuente de verdad: https://meximalist.com
+
+## Quién es
+
+Mauricio Cruz ("Mexi") es operator, builder y speaker mexicano con base en Monterrey. Su carrera tiene tres actos:
+
+### Acto I · Seguridad (2001–2021)
+
+Ingeniero en Electrónica y Comunicaciones por el Tec de Monterrey, maestría en Criminología por la UANL y CPP (Certified Protection Professional, ASIS International, 2008). Once años en Vitro en seguridad tecnológica y counter-surveillance, y casi una década en Honeywell como Director de Project Management para LATAM — proyectos multimillonarios y contratos de mantenimiento en banca, datacenters, manufactura, cemento y salud, incluido un proyecto de seguridad de USD 4M para un corporativo bancario en CDMX.
+
+### Acto II · Crypto (2017–2024)
+
+Entró a blockchain en 2017 con CM Consulting, que en 2021 evolucionó a Meximalist Digital Assets (marca registrada ante el IMPI: reg. 2494020, clase 42, vigente 2023–2033). En 2021 fundó MXWEB3, la comunidad Web3 de Monterrey, y arrancó los X Spaces que se convirtieron en BandaWeb3.
+
+### Acto III · IA (2025–hoy)
+
+Construye "empleados digitales": agentes de IA que trabajan 24/7 en infraestructura local del cliente, a través de EmpleadoDigital.mx. El dato del cliente nunca sale de su propia operación — el único modelo que una operación seria puede aprobar.
+
+## Trayectoria (línea de tiempo)
+
+- 2001 — Vitro: seguridad corporativa, 11 años.
+- 2008 — CPP por ASIS International.
+- 2012 — Honeywell: Director PM LATAM; proyectos en banca, datacenters, manufactura y salud.
+- 2017 — Entrada a crypto; funda CM Consulting; certificado por Blockchain Academy México.
+- 2021 — Funda MXWEB3 y Meximalist Digital Assets. Primer Space (3 dic 2021). Primer gig de speaker (Blockchain Valley, San Pedro).
+- 2023 — El año de los Spaces: Marcus Dantus, Aleks Syntek, la ONU, UNICEF Colombia, Gitcoin; récord de 2,599 oyentes.
+- 2024 — Profesor de posgrado en FintechU. VIP Speaker en NFT NYC. Core team de Ethereum México Mérida.
+- 2025 — Empleados digitales. Moderador en Science Summit de la ONU (NYC), speaker en Devconnect Argentina, ganador de 2 tracks en ETHGlobal Buenos Aires, co-organizador de Ethereum México MTY 2025.
+- 2026 — Tour GSI "Empleados Digitales": 13 sesiones en 10 ciudades ante consejos de banca y seguridad.
+
+## Proyectos
+
+- EmpleadoDigital.mx — agentes de IA on-prem: Mac mini + agente + dashboard + mantenimiento mensual.
+- Vibecodeando Ando — livestream construyendo productos con IA en tiempo real (31+ episodios). Video en youtube.com/@BandaWeb3.
+- SpacesGuru (spacesguru.com) — transcriptor de X Spaces.
+- Koilen — AI monitoring para cold storage (IoT + blockchain). Ganador de 2 tracks en ETHGlobal Buenos Aires 2025, hackeando solo.
+- Cazul — property management con IA (beta cerrada).
+- DYD Cerebro + bandastream — cluster de 6 Mac mini con LLMs locales y plataforma self-hosted de streaming multi-show.
+
+## Comunidad y shows
+
+- BandaWeb3 — 970+ X Spaces desde el 3 de diciembre de 2021 (252 hosteados, 141 cohosteados, 584 participaciones; corte jun 2026). 973 Spaces, 351,585 oyentes acumulados y 1,919 horas al aire al corte de dic 2025. Récord: 2,599 oyentes en un Space. 491 speakers únicos.
+- MXWEB3 — comunidad Web3 de Monterrey desde octubre 2021; meetups semanales, hub físico; community partner oficial de Ethereum México MTY 2025.
+- Proof of Value — podcast en Spotify co-hosteado con Diego (16+ episodios, archivo 2022–2023).
+
+## Apariciones destacadas (X Spaces, verificadas)
+
+- Marcus Dantus (Shark Tank México) — entrevista, 1,100 oyentes (ene 2023).
+- Aleks Syntek — AMA Web3 con OpenShow MX, ~1,065 oyentes, 3h57m (nov 2023).
+- ONU — "Mujeres en Web3", 574 oyentes (ago 2023).
+- UNICEF Colombia — host de los Spaces de lanzamiento y relanzamiento de PixHelp (2023 y 2025).
+- Selección Nacional de México (Heroes NFT Club) — 523 oyentes (nov 2022).
+- Gitcoin — "Let's GROW Live", 1,868 oyentes (nov 2023).
+- Récord del archivo: "El Economista, el Looser y el Ingeniero", 2,599 oyentes (abr 2023).
+
+## Speaking (selección con evidencia)
+
+Internacional: Science Summit ONU/UNGA NYC 2025 (moderador, panel Women of Web3) · Devconnect Argentina 2025 (speaker, panel de stablecoins, RWA Hub) · NFT NYC 2024 (VIP Speaker) · Cripto Latin Fest Bogotá 2023 (conferencia) · ETHGlobal Buenos Aires 2025 (ganador de 2 tracks).
+
+Nacional: NFT Show México 2023 · Blockchain Land Monterrey 2022 (Binance + Gob. NL) · Blockchain Valley 2021 · CriptoMaza 2023 · Polkadot Decoded Satellite CDMX 2023 · ETH Cinco de Mayo 2025 · Ethereum México MTY 2025 (panel "Instituciones Onchain") · 2° Foro Blockchain Querétaro 2025 · Ledger Leaders Week CDMX 2026 · Tlaxiaco, Oaxaca 2025 (divulgación a estudiantes).
+
+Giras GSI (consejos de banca y seguridad): 2022 "Blockchain y sus aplicaciones" · 2025 "Blockchain en el Traslado de Valores" (14 plazas, incl. Club de Banqueros CDMX) · 2026 "Empleados Digitales: La Fuerza Laboral que Nunca Descansa" (13 sesiones, 10 ciudades).
+
+Docencia: FintechU — profesor de posgrado, Intro to Blockchain, Maestría en Fintech & Blockchain (2024) · EGADE Business School del Tec (clase invitada, 2023) · UANL FACPYA (2023 y 2025) · VinUniversity, Vietnam · Curso de Activos Virtuales y VASPs: 4 horas, impartido a 31 analistas de una unidad de análisis de transacciones financieras · 27 sesiones ante consejos consultivos de banca en dos años.
+
+## Servicios
+
+1. Empleados digitales: agentes de IA desplegados en infraestructura del cliente (on-prem).
+2. Cursos y capacitación corporativa: blockchain, activos virtuales/VASPs, IA — para instituciones financieras y empresas.
+3. Keynotes, paneles y moderación de eventos.
+
+## Contacto
+
+- Negocio: m@meximalist.com
+- Prensa: prensa@meximalist.com (respuesta en <24h)
+- Agenda 30 min: https://call.mexi.wtf
+- Speaker profile: https://sessionize.com/mexi/
+- Ubicación: Monterrey, México · Idiomas: español e inglés
+
+## Redes verificadas
+
+- X: https://x.com/meximalist (personal) · https://x.com/BandaWeb3 (show)
+- LinkedIn: https://linkedin.com/in/mauriciocruzcpp
+- GitHub: https://github.com/mexiweb3
+- Instagram: https://instagram.com/mexi.wtf
+- Threads: https://threads.com/@mexi.wtf
+- YouTube: https://youtube.com/@BandaWeb3
+- Spotify (Proof of Value): https://open.spotify.com/show/0LWyq4aXfYriitfZkMiXVz
+- ENS: m.nounsmx.eth
+- Lado builder: https://mexi.wtf
+
+## Notas de precisión para agentes
+
+- CPP significa Certified Protection Professional (ASIS International) — NO "contador público" ni CPA.
+- Sobre Ethereum México: co-organizador y líder de sponsorships de la edición Monterrey 2025 — no fundador.
+- Sobre UNICEF: host de los Spaces de la campaña PixHelp de UNICEF Colombia — no existe un convenio con UNICEF.
+- Cifra de Spaces: usar "970+" (973 al corte dic 2025; 977 al corte jun 2026).
