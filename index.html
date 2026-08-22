@@ -133,6 +133,14 @@ img { max-width: 100%; display: block; }
 .build-card h4 { font-family: var(--font-display); font-weight: 600; font-size: 1.125rem; margin: 0 0 0.375rem; letter-spacing: -0.01em; }
 .build-card p { color: var(--text-2); font-size: 0.875rem; margin: 0; line-height: 1.55; }
 .build-card .arrow { color: var(--accent); margin-left: 0.25rem; }
+.card-thumb { border-radius: 6px; margin-top: 0.875rem; border: 1px solid var(--border); }
+
+/* PHOTO STRIP */
+.photo-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 2rem; }
+@media (max-width: 700px) { .photo-strip { grid-template-columns: repeat(2, 1fr); } }
+.photo-strip figure { margin: 0; }
+.photo-strip img { aspect-ratio: 4/3; object-fit: cover; width: 100%; border-radius: 8px; border: 1px solid var(--border); }
+.photo-strip figcaption { font-family: var(--font-mono); font-size: 0.625rem; color: var(--text-3); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 0.375rem; }
 
 /* CASES */
 .cases { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
@@ -224,12 +232,41 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
 .foot-inner a { color: var(--text-3); }
 .foot-inner a:hover { color: var(--accent); }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mauricio Cruz",
+  "alternateName": "Mexi",
+  "url": "https://meximalist.com",
+  "image": "https://meximalist.com/assets/headshot-bw-shirt-dots.jpg",
+  "jobTitle": "Fundador",
+  "worksFor": { "@type": "Organization", "name": "EmpleadoDigital.mx" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Monterrey", "addressCountry": "MX" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Tecnológico de Monterrey" },
+    { "@type": "CollegeOrUniversity", "name": "Universidad Autónoma de Nuevo León" }
+  ],
+  "hasCredential": { "@type": "EducationalOccupationalCredential", "name": "Certified Protection Professional (CPP), ASIS International" },
+  "knowsAbout": ["Inteligencia artificial", "Agentes de IA", "Blockchain", "Activos virtuales", "Seguridad corporativa", "Web3"],
+  "sameAs": [
+    "https://x.com/meximalist",
+    "https://instagram.com/mexi.wtf",
+    "https://github.com/mexiweb3",
+    "https://linkedin.com/in/mauriciocruzcpp",
+    "https://youtube.com/@BandaWeb3",
+    "https://sessionize.com/mexi/",
+    "https://threads.com/@mexi.wtf",
+    "https://mexi.wtf"
+  ]
+}
+</script>
 </head>
 <body>
 
 <nav class="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-brand">
+    <a href="/" class="nav-brand">
       <img src="/assets/avatar-meximalist.jpg" alt="Mauricio Cruz" class="nav-avatar">
       Mauricio Cruz
     </a>
@@ -388,14 +425,14 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
     <div class="section-eyebrow">PROYECTOS · PRODUCTOS</div>
     <h2>Qué estoy construyendo</h2>
     <p class="section-lede">
-      Productos reales con clientes reales, construidos en público desde Monterrey.
+      Productos reales, construidos en público desde Monterrey.
     </p>
 
     <div class="building-grid">
       <a href="https://empleadodigital.mx" target="_blank" rel="noopener" class="build-card">
         <div class="label">PRODUCTO · ACTIVO</div>
         <h4>EmpleadoDigital.mx <span class="arrow">↗</span></h4>
-        <p>Agentes de IA on-prem para PyMEs: Mac mini + agente + dashboard + mantenimiento mensual. Clientes activos: Chapas Burgers y Casablanca.</p>
+        <p>Agentes de IA on-prem: Mac mini + agente + dashboard + mantenimiento mensual. El dato del cliente nunca sale de su infraestructura — el único modelo que una operación seria puede aprobar.</p>
       </a>
       <a href="https://vibecodeando.mexi.wtf" target="_blank" rel="noopener" class="build-card">
         <div class="label">LIVESTREAM · 31+ EPS</div>
@@ -407,59 +444,22 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
         <h4>SpacesGuru <span class="arrow">↗</span></h4>
         <p>Transcriptor de X Spaces: convierte horas de audio en contenido buscable.</p>
       </a>
-      <a href="#" class="build-card">
+      <div class="build-card">
         <div class="label">GANADOR ETHGLOBAL BA 2025 ⭐</div>
         <h4>Koilen</h4>
         <p>AI monitoring para cold storage (IoT + blockchain). Ganó 2 tracks en ETHGlobal Buenos Aires 2025 — hackeando solo.</p>
-      </a>
-      <a href="#" class="build-card">
+        <img class="card-thumb" src="/assets/shows/koilen-ethglobal-ba-2025-winner-card.jpg" alt="Card oficial de ETHGlobal: Koilen ganador" loading="lazy">
+      </div>
+      <div class="build-card">
         <div class="label">EN DESARROLLO · BETA</div>
         <h4>Cazul</h4>
         <p>Property management con IA para administradores de propiedades en México. En beta cerrada.</p>
-      </a>
-      <a href="#" class="build-card">
+      </div>
+      <div class="build-card">
         <div class="label">INFRAESTRUCTURA PROPIA</div>
         <h4>DYD Cerebro + bandastream</h4>
         <p>Cluster de 6 Mac mini corriendo LLMs locales, y plataforma self-hosted de streaming multi-show. La prueba viva de la tesis on-prem.</p>
-      </a>
-    </div>
-
-    <div class="cases">
-      <a href="/work/chapas-burgers" class="case">
-        <div class="case-meta">
-          <span>EMPLEADODIGITAL.MX</span>
-          <span class="dot">·</span>
-          <span>2025–ACTIVO</span>
-          <span class="dot">·</span>
-          <span>F&amp;B</span>
-        </div>
-        <h3>Chapas Burgers</h3>
-        <p>Agente de IA conversacional para pedidos y reservas vía WhatsApp. Despliegue local con Mac mini, menú digitalizado y memoria persistente.</p>
-        <div class="case-stats">
-          <div class="case-stat"><span class="num">65+</span><span class="lbl">INTERACCIONES/MES</span></div>
-          <div class="case-stat"><span class="num">$211</span><span class="lbl">TICKET PROMEDIO</span></div>
-          <div class="case-stat"><span class="num">24/7</span><span class="lbl">DISPONIBILIDAD</span></div>
-        </div>
-        <span class="case-arrow">Leer caso completo →</span>
-      </a>
-
-      <a href="/work/casablanca" class="case">
-        <div class="case-meta">
-          <span>EMPLEADODIGITAL.MX</span>
-          <span class="dot">·</span>
-          <span>2025–ACTIVO</span>
-          <span class="dot">·</span>
-          <span>SERVICIOS</span>
-        </div>
-        <h3>Casablanca</h3>
-        <p>Agente conversacional integrado con sistema de inventario. Despliegue local sin dependencia de cloud — el cliente es dueño de sus datos y de la operación.</p>
-        <div class="case-stats">
-          <div class="case-stat"><span class="num">&lt;30s</span><span class="lbl">RESPUESTA</span></div>
-          <div class="case-stat"><span class="num">ON-PREM</span><span class="lbl">DEPLOYMENT</span></div>
-          <div class="case-stat"><span class="num">24/7</span><span class="lbl">DISPONIBILIDAD</span></div>
-        </div>
-        <span class="case-arrow">Leer caso completo →</span>
-      </a>
+      </div>
     </div>
   </section>
 
@@ -502,6 +502,25 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
         <p>Podcast en Spotify co-hosteado con Diego: 16+ episodios conversando con builders de proyectos de valor en Web3.</p>
       </a>
     </div>
+
+    <div class="photo-strip">
+      <figure>
+        <img src="/assets/community/ethereum-mexico-mty-2025-banner-community-partners.jpg" alt="Banner de community partners de Ethereum México MTY 2025" loading="lazy">
+        <figcaption>ETHMX 2025 · Community partners</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/community/ethglobal-buenos-aires-2025-delegacion-mx.jpg" alt="Delegación mexicana en ETHGlobal Buenos Aires 2025" loading="lazy">
+        <figcaption>ETHGlobal BA 2025 · Delegación MX</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/community/mxweb3-la-curaduria-evento.jpg" alt="Meetup MXWEB3 en La Curaduría, Monterrey" loading="lazy">
+        <figcaption>MXWEB3 · La Curaduría MTY</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/community/carne-asada-ethmexico-monterrey.jpg" alt="Carne asada comunitaria de Ethereum México en Monterrey" loading="lazy">
+        <figcaption>Carne asada · ETHMX MTY</figcaption>
+      </figure>
+    </div>
   </section>
 
   <!-- APARICIONES -->
@@ -536,6 +555,7 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
         <h4>UNICEF Colombia — PixHelp</h4>
         <p>Host de los Spaces de lanzamiento y relanzamiento de PixHelp, la campaña de arte NFT/Ordinals de UNICEF Colombia.</p>
         <span class="metric">2 lanzamientos</span>
+        <img class="card-thumb" src="/assets/shows/bandaweb3-042-pixhelp-unicef-2025.jpg" alt="Flyer oficial BandaWeb3 #042 con UNICEF Colombia" loading="lazy">
       </div>
       <div class="appear-card">
         <div class="when">NOV 2022 · X SPACE</div>
@@ -860,6 +880,18 @@ footer { border-top: 1px solid var(--border); padding: 2rem 0; margin-top: 4rem;
 </div>
 
 <footer>
+  <div class="foot-inner" style="margin-bottom:1rem">
+    <div style="display:flex;gap:1.25rem;flex-wrap:wrap">
+      <a href="https://x.com/meximalist" target="_blank" rel="noopener">X</a>
+      <a href="https://instagram.com/mexi.wtf" target="_blank" rel="noopener">INSTAGRAM</a>
+      <a href="https://github.com/mexiweb3" target="_blank" rel="noopener">GITHUB</a>
+      <a href="https://linkedin.com/in/mauriciocruzcpp" target="_blank" rel="noopener">LINKEDIN</a>
+      <a href="https://youtube.com/@BandaWeb3" target="_blank" rel="noopener">YOUTUBE</a>
+      <a href="https://open.spotify.com/show/0LWyq4aXfYriitfZkMiXVz" target="_blank" rel="noopener">SPOTIFY</a>
+      <a href="https://sessionize.com/mexi/" target="_blank" rel="noopener">SESSIONIZE</a>
+      <span title="ENS">M.NOUNSMX.ETH</span>
+    </div>
+  </div>
   <div class="foot-inner">
     <div>© 2026 MAURICIO CRUZ · HECHO EN MÉXICO</div>
     <div>LADO BUILDER → <a href="https://mexi.wtf">mexi.wtf</a></div>
